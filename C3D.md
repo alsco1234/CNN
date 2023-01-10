@@ -401,6 +401,7 @@ class C3D(nn.Module):
 
         self.softmax = nn.Softmax(dim=1) # 0~1의 확률로
 
+    # feedfoward network 쌓기
     def forward(self, x):
 
         h = self.relu(self.conv1(x))
