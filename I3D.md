@@ -345,6 +345,7 @@ class Unit3D(nn.Module):
             x = self._activation_fn(x)
         return x
 
+# *** InceptionModule ***
 class InceptionModule(nn.Module):
     def __init__(self, in_channels, out_channels, name):
         super(InceptionModule, self).__init__()
