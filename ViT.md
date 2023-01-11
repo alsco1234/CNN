@@ -8,7 +8,7 @@ https://huggingface.co/docs/transformers/model_doc/vit
 Fashion mnist train
 https://colab.research.google.com/drive/1Q-js3ugu1Xx-a4oH-KHDUsOmYXjGF4Er?authuser=1#scrollTo=BcK7907n6KOs 
 
-Fashion mnist trani 2
+Fashion mnist train 2
 https://colab.research.google.com/github/d2l-ai/d2l-pytorch-colab/blob/master/chapter_attention-mechanisms-and-transformers/vision-transformer.ipynb 
 
 Imagenet pretrained된거가지고 한장실험
