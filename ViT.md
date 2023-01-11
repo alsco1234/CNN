@@ -1,3 +1,8 @@
+<aside>
+💡 Image에 Tranformer적용하기 위해 encoder, 특히 Multi-Head Self (dot)Attention를 사용**
+
+</aside>
+
 github 원본 : 
 https://github.com/google-research/vision_transformer
 
