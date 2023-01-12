@@ -20,6 +20,7 @@ github : https://github.com/google-research/vision_transformer
 colab : https://colab.research.google.com/github/keras-team/keras-io/blob/master/examples/vision/ipynb/vivit.ipynb?authuser=3 
 
 Hugging face one video test https://huggingface.co/spaces/keras-io/video-transformers 
+ViViT-B ImgNet pre-trained model https://github.com/mx-mark/VideoTransformer-pytorch
 
 ```
 
