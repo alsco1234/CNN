@@ -1,4 +1,3 @@
-from lib import *
 from torchvision.io.video import read_video
 from transform import CenterCrop, Resize, ToFloatTensorInZeroOne
 import warnings
