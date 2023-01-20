@@ -1,5 +1,6 @@
 """transformer"""
 
+from typing import Iterable
 import torch.nn.functional as F
 from PIL import Image
 import numpy as np
