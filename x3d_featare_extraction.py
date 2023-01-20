@@ -1,4 +1,6 @@
 from ast import Tuple
+import nntplib
+from typing import Callable
 from torchvision.io.video import read_video
 import warnings
 warnings.filterwarnings('ignore')
@@ -7,6 +9,7 @@ import pandas as pd
 import numpy as np
 import torch
 import math
+import nntplib as nn
 
 def round_width(width, multiplier, min_width = 8, divisor = 8, ceil = False):
   if not multiplier:
