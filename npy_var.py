@@ -14,4 +14,4 @@ tmp = tmp['arr_0'].tolist()
 #     print(i,': ',j)
 #tmp['s3d'][0]로 뽑아
 
-print(tmp.shape())
+print(tmp.shape())   
