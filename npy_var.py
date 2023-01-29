@@ -1,3 +1,5 @@
+# Show feature shape
+
 import csv
 import numpy as np
 from contextlib import nullcontext
