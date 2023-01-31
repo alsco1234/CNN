@@ -1,3 +1,5 @@
+# for x3d, where is time axis?
+
 import cv2
 vidcap = cv2.VideoCapture('../../extra/sun1.mp4')
 success,image = vidcap.read()
