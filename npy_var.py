@@ -8,12 +8,15 @@ import shutil
 import glob
 from PIL import Image
 
-f = '/projects/vode/ccd_x3d_npz/normal/00001_x3d.npz'
+f = 'sun3_1.npy'
 tmp = np.load(f, allow_pickle=True)
 
-tmp = tmp['arr_0'].tolist()
+#tmp = tmp.tolist()
 # for j in tmp:
 #     print(i,': ',j)
 #tmp['s3d'][0]로 뽑아
 
-print(tmp.shape())   
+# if npz, instead of npy : using tmp['arr_1']
+
+print(tmp.shape)
+print(tmp)
