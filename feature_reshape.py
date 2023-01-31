@@ -1,3 +1,5 @@
+# feature reshape (1, -1)
+
 import os
 import numpy as np
 

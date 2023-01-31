@@ -1,3 +1,5 @@
+# feature extraction for CCD dataset using x3d
+
 from ast import Tuple
 import nntplib
 from typing import Callable
