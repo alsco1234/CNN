@@ -1,4 +1,5 @@
 # for x3d, where is time axis?
+# using fps, deal speed
 
 import cv2
 vidcap = cv2.VideoCapture('../../extra/sun1.mp4')
