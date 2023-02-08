@@ -2,7 +2,6 @@ import cv2
 import argparse
 import glob
 import os
-import math
 import time
 
 def createDirectory(directory):
