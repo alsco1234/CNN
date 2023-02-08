@@ -11,7 +11,7 @@ from pathlib import Path
 import json
 import cv2
 import csv
-import natsort
+#import natsort
 
 # kinetics test json파일 열기
 with open('../../../projects/vode/data/kinetics-dataset/k400/annotations/test.json', 'r') as f:
