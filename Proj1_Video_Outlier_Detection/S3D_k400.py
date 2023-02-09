@@ -1,5 +1,7 @@
 # https://pytorch.org/vision/main/models/generated/torchvision.models.video.s3d.html
+# https://github.com/liteworldz/robust_knowledge_distillation/tree/main/tvision/models
 
+import s3d
 import torch
 import tensorflow as tf
 import tensorflow_hub as hub
@@ -13,7 +15,7 @@ from pathlib import Path
 import json
 import cv2
 import csv
-#import natsort
+import natsort
 
 # kinetics test json파일 열기
 with open('kinetics400.json', 'r') as f:
@@ -21,19 +23,18 @@ with open('kinetics400.json', 'r') as f:
 key_list = list(json_data.keys())
 
 # 사용할 x3d모델 지정(s3d)
-model_name = 'x3d_m'
-model = torch.hub.load('facebookresearch/pytorchvideo', model_name, pretrained=True)
+model = s3d
 
 import json
 import urllib
-from pytorchvideo.data.encoded_video import EncodedVideo
+from ...pytorchvideo.pytorchvideo.data.encoded_video import EncodedVideo
 
 from torchvision.transforms import Compose, Lambda
 from torchvision.transforms._transforms_video import (
     CenterCropVideo,
     NormalizeVideo,
 )
-from pytorchvideo.transforms import (
+from ...pytorchvideo.pytorchvideo.transforms import (
     ApplyTransformToKey,
     ShortSideScale,
     UniformTemporalSubsample
@@ -65,28 +66,14 @@ mean = [0.45, 0.45, 0.45]
 std = [0.225, 0.225, 0.225]
 frames_per_second = 30
 model_transform_params  = {
-    "x3d_xs": {
-        "side_size": 182,
-        "crop_size": 182,
-        "num_frames": 4,
-        "sampling_rate": 12,
-    },
-    "x3d_s": {
-        "side_size": 182,
-        "crop_size": 182,
-        "num_frames": 13,
-        "sampling_rate": 6,
-    },
-    "x3d_m": {
-        "side_size": 256,
-        "crop_size": 256,
-        "num_frames": 16,
-        "sampling_rate": 5,
-    }
+    "side_size": 224,
+    "crop_size": 224,
+    "num_frames": 32,
+    "sampling_rate": 5,
 }
 
 # 모델의 base transform parameter불러오기
-transform_params = model_transform_params[model_name]
+transform_params = model_transform_params
 
 # 원하는 대로 데이터를 핸들링 하기 위해, Compose기능 사용(rescale, randomCrop, ...)
 transform =  ApplyTransformToKey(
