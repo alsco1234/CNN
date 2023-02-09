@@ -6,9 +6,10 @@ from typing import Optional, Tuple
 
 import torch
 from torch import nn, Tensor
+from torchvision.transforms import InterpolationMode
 
-from . import functional as F, InterpolationMode
-
+import functional as F
+import functional as InterpolationMode
 
 __all__ = [
     "ObjectDetection",
@@ -43,7 +44,7 @@ class ImageClassification(nn.Module):
         resize_size: int = 256,
         mean: Tuple[float, ...] = (0.485, 0.456, 0.406),
         std: Tuple[float, ...] = (0.229, 0.224, 0.225),
-        interpolation: InterpolationMode = InterpolationMode.BILINEAR,
+        interpolation: InterpolationMode = InterpolationMode.bilinear,
     ) -> None:
         super().__init__()
         self.crop_size = [crop_size]
@@ -88,7 +89,7 @@ class VideoClassification(nn.Module):
         resize_size: Tuple[int, int],
         mean: Tuple[float, ...] = (0.43216, 0.394666, 0.37645),
         std: Tuple[float, ...] = (0.22803, 0.22145, 0.216989),
-        interpolation: InterpolationMode = InterpolationMode.BILINEAR,
+        interpolation: InterpolationMode = InterpolationMode.bilinear,
     ) -> None:
         super().__init__()
         self.crop_size = list(crop_size)
@@ -144,7 +145,7 @@ class SemanticSegmentation(nn.Module):
         resize_size: Optional[int],
         mean: Tuple[float, ...] = (0.485, 0.456, 0.406),
         std: Tuple[float, ...] = (0.229, 0.224, 0.225),
-        interpolation: InterpolationMode = InterpolationMode.BILINEAR,
+        interpolation: InterpolationMode = InterpolationMode.bilinear,
     ) -> None:
         super().__init__()
         self.resize_size = [resize_size] if resize_size is not None else None

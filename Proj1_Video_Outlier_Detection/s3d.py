@@ -6,7 +6,7 @@ from torch import nn
 from torchvision.ops.misc import Conv3dNormActivation
 
 from utils import _log_api_usage_once
-from _utils import _ovewrite_named_param, handle_legacy_interface
+from _utils2 import _ovewrite_named_param, handle_legacy_interface
 from _api import register_model, Weights, WeightsEnum
 from _meta import _KINETICS400_CATEGORIES
 from _presets import VideoClassification

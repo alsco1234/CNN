@@ -8,9 +8,9 @@ from typing import Any, Callable, cast, Dict, List, Mapping, Optional, TypeVar, 
 
 from torch import nn
 
-from torchvision._utils import StrEnum
-
-from .._internally_replaced_utils import load_state_dict_from_url
+from _utils import StrEnum
+from torchvision import _internally_replaced_utils
+from torch.hub import load_state_dict_from_url
 
 
 __all__ = ["WeightsEnum", "Weights", "get_model", "get_model_builder", "get_model_weights", "get_weight", "list_models"]

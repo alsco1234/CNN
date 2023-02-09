@@ -95,7 +95,7 @@ transform =  ApplyTransformToKey(
 clip_duration = (transform_params["num_frames"] * transform_params["sampling_rate"])/frames_per_second
 
 # test video path설정
-dir_name = os.listdir('../../../projects/vode/data/kinetics400/test')
+dir_name = os.listdir('../../k400')
 dir_list = list(dir_name)
 dir_list = natsort.natsorted(dir_list)
 
@@ -143,10 +143,10 @@ def prediction(video_path):
     new_col = col1 + col2
     df = df[new_col]
     
-    if not os.path.exists('kinetics_softmax_x3d_m.csv'):
-        df.to_csv('kinetics_softmax_x3d_m.csv', index=False, mode='w', encoding='utf-8-sig')
+    if not os.path.exists('kinetics_softmax_s3d.csv'):
+        df.to_csv('kinetics_softmax_s3d.csv', index=False, mode='w', encoding='utf-8-sig')
     else:
-        df.to_csv('kinetics_softmax_x3d_m.csv', index=False, mode='a', encoding='utf-8-sig', header=False)
+        df.to_csv('kinetics_softmax_s3d.csv', index=False, mode='a', encoding='utf-8-sig', header=False)
     
     pred_classes = preds.topk(k=1).indices[0]
 
@@ -167,7 +167,7 @@ def prediction(video_path):
         return 0
 
 for dir in dir_list:
-    dir_path = '../../../projects/vode/data/kinetics400/test/' + dir
+    dir_path = '../../k400/' + dir
     file_path = []
     for (root, directories, files) in os.walk(dir_path):
         for file in files:
