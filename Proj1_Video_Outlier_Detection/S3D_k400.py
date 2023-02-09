@@ -16,11 +16,11 @@ import csv
 #import natsort
 
 # kinetics test json파일 열기
-with open('../../../projects/vode/data/kinetics-dataset/k400/annotations/test.json', 'r') as f:
+with open('kinetics400.json', 'r') as f:
     json_data = json.load(f)
 key_list = list(json_data.keys())
 
-# 사용할 x3d모델 지정(x3d_s, x3d_xs, x3d_m)
+# 사용할 x3d모델 지정(s3d)
 model_name = 'x3d_m'
 model = torch.hub.load('facebookresearch/pytorchvideo', model_name, pretrained=True)
 
