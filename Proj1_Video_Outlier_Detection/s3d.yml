@@ -1,0 +1,21 @@
+# Model
+feature_type: 's3d'
+stack_size: 64 # Feature time span in fps
+step_size: 64 # Feature step size in fps
+extraction_fps: null # 25 is my best guess. For original video fps, leave unspecified "null" (None)
+
+# Extraction Parameters
+device: 'cuda:0'  # device as in `torch`, can be 'cpu'
+on_extraction: 'save_numpy'  # what to do once the features are extracted. Can be ['print', 'save_numpy', 'save_pickle']
+output_path: './s3d_kinetics_output' # where to store results if saved
+tmp_path: './tmp' # folder to store the temporary files used for extraction (frames or aud files)
+keep_tmp_files: true # to keep temp files after feature extraction.
+show_pred: true # to show preds of a model, i.e. on a pre-train dataset for each feature (Kinetics 400)
+
+# config
+config: null
+
+# Video paths
+video_paths: null #/projects/vode/data/kinetics400/test/abseiling/-wjbrrLyhIM_000419_000429.mp4 #/projects/vode/data/kinetics400/test/abseiling/-aU-xCCzkT0_000061_000071.mp4 #null
+file_with_video_paths: /home/s21900395/i3d+r21d+x3d_path.txt # if the list of videos is large, you might put them in a txt file, use this argument to specify the path
+#file_with_video_paths: /home/alsco1234/s3d2/video_features/sample/sample_video_paths.txt # if the list of videos is large, you might put them in a txt file, use this argument to specify the path
