@@ -1,3 +1,14 @@
+"""
+논문 재실험 (Kinetics-400)
+- I3D, S3D, R(2+1)D, X3D
+- 기존의 방법: 비디오의 첫 segment만 input으로 주어 각 모델마다 segment 길이가 달라 정확한 비교가 어려웠음
+- 새로운 방법: 비디오에서 추출한 모든 segment를 input으로 주고 다수결로 해당 비디오의 class를 결정
+- I3D: 에러 해결 중
+- R(2+1): 각 segment별 softmax값 추출 중 (약 17시간 소요 예정)
+- S3D: fps수정하지않고 원본에서 softmax값 추출하도록 변경중
+- X3D: 16프레임씩 잘라서 segmentation진행중(뒤에 남은 부분 즉, 16프레임 이하로 남는 부분은 버림), 아직 분류 성능 측정은 아직
+"""
+
 from omegaconf import OmegaConf
 from tqdm import tqdm # 진행 상태바를 보여줌 
 
