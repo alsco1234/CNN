@@ -3,7 +3,7 @@
 - 기존의 방법: 비디오의 첫 segment만 input으로 주어 각 모델마다 segment 길이가 달라 정확한 비교가 어려웠음
 - 새로운 방법: 비디오에서 추출한 모든 segment를 input으로 주고 다수결로 해당 비디오의 class를 결정
 - S3D: fps수정하지않고 원본에서 softmax값 추출하도록 변경중
-- 지금 tmp에서 reframe된 동ㅇ영상 가져옴. 원본 가져오게
+- 지금 tmp에서 reframe된 동영상 가져옴. 원본 가져오게
 """
 
 from omegaconf import OmegaConf
