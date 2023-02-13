@@ -4,7 +4,7 @@ import numpy as np
 import torch
 import torchvision
 from base_extractor import BaseExtractor
-from .s3d import S3D 
+from .s3d import S3D
 from models.transforms import CenterCrop, Resize, ToFloatTensorInZeroOne
 from torchvision.io.video import read_video
 from utils.io import reencode_video_with_diff_fps
