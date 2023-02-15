@@ -16,7 +16,7 @@ from omegaconf.listconfig import ListConfig
 import csv ####
 
 IMAGENET_CLASS_PATH = './utils/IN_label_map.txt'
-KINETICS_CLASS_PATH = './utils/K400_label_map.txt'
+KINETICS_CLASS_PATH = './K400_label_map.txt'
 
 def show_predictions_on_dataset(logits: torch.FloatTensor, dataset: Union[str, List], seg_id: int, video_path): #### segment_id 추가함 (0부터 시작), video_path 추가함
     '''Prints out predictions for each feature
@@ -133,10 +133,10 @@ def sanity_check(args: Union[argparse.Namespace, DictConfig]):
         # may add `finetuned_on` item
     real_output_path = args.output_path
     real_tmp_path = args.tmp_path
-    for p in subs:
+    #for p in subs:
         # some model use `/` e.g. ViT-B/16
-        real_output_path = os.path.join(real_output_path, p.replace("/", "_"))
-        real_tmp_path = os.path.join(real_tmp_path, p.replace("/", "_"))
+        #real_output_path = os.path.join(real_output_path, p.replace("/", "_"))
+        #real_tmp_path = os.path.join(real_tmp_path, p.replace("/", "_"))
     args.output_path = real_output_path
     args.tmp_path = real_tmp_path
 

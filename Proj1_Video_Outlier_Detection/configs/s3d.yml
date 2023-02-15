@@ -17,5 +17,5 @@ config: null
 
 # Video paths
 video_paths: null #/projects/vode/data/kinetics400/test/abseiling/-wjbrrLyhIM_000419_000429.mp4 #/projects/vode/data/kinetics400/test/abseiling/-aU-xCCzkT0_000061_000071.mp4 #null
-file_with_video_paths: /home/s21900395/i3d+r21d+x3d_path.txt # if the list of videos is large, you might put them in a txt file, use this argument to specify the path
+file_with_video_paths: ./K400.txt # if the list of videos is large, you might put them in a txt file, use this argument to specify the path
 #file_with_video_paths: /home/alsco1234/s3d2/video_features/sample/sample_video_paths.txt # if the list of videos is large, you might put them in a txt file, use this argument to specify the path

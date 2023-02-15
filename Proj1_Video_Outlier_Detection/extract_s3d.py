@@ -7,7 +7,7 @@ from base_extractor import BaseExtractor
 from s3d import S3D
 from transforms import CenterCrop, Resize, ToFloatTensorInZeroOne
 from torchvision.io.video import read_video
-from io import reencode_video_with_diff_fps
+#from io import reencode_video_with_diff_fps
 from utils import form_slices, show_predictions_on_dataset
 
 
@@ -54,8 +54,8 @@ class ExtractS3D(BaseExtractor):
             Dict[str, np.ndarray]: feature name (e.g. 'fps' or feature_type) to the feature tensor
         """
         # take the video, change fps and save to the tmp folder
-        if self.extraction_fps is not None:
-            video_path = reencode_video_with_diff_fps(video_path, self.tmp_path, self.extraction_fps)
+        #if self.extraction_fps is not None:
+        #    video_path = reencode_video_with_diff_fps(video_path, self.tmp_path, self.extraction_fps)
 
         # read a video
         rgb, audio, info = read_video(video_path, pts_unit='sec')
@@ -94,7 +94,7 @@ class ExtractS3D(BaseExtractor):
         Returns:
             Dict[str, torch.nn.Module]: model-agnostic dict holding modules for extraction and show_pred
         """
-        s3d_kinetics400_weights_torch_path = './models/s3d/checkpoint/S3D_kinetics400_torchified.pt'
+        s3d_kinetics400_weights_torch_path = '/Users/kimminchae/Desktop/CNN/S3D_kinetics400_torchified.pt'
         model = S3D(num_class=400, ckpt_path=s3d_kinetics400_weights_torch_path)
         model = model.to(self.device)
         model.eval()
