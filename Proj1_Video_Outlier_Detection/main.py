@@ -7,7 +7,11 @@
 
         ISSUE
 - 첫 영상의 일부만 가져옴
+- 정확도가 너무 낮음
 
+        TODO
+- git issue 확인
+- 다른 model softmax와 비교
 """
 
 from omegaconf import OmegaConf
