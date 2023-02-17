@@ -9,7 +9,7 @@ device: 'cuda:0'  # device as in `torch`, can be 'cpu'
 on_extraction: 'save_numpy'  # what to do once the features are extracted. Can be ['print', 'save_numpy', 'save_pickle']
 output_path: './s3d_kinetics_output' # where to store results if saved
 tmp_path: './tmp' # folder to store the temporary files used for extraction (frames or aud files)
-keep_tmp_files: true # to keep temp files after feature extraction.
+keep_tmp_files: false # to keep temp files after feature extraction.
 show_pred: true # to show preds of a model, i.e. on a pre-train dataset for each feature (Kinetics 400)
 
 # config
