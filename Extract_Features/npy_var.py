@@ -8,7 +8,7 @@ import shutil
 import glob
 from PIL import Image
 
-f = 'sun3_1.npy'
+f = '../s3d_0217ver_test.npy'
 tmp = np.load(f, allow_pickle=True)
 
 #tmp = tmp.tolist()
