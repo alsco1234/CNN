@@ -5,10 +5,6 @@
 - S3D: fps수정하지않고 원본에서 softmax값 추출하도록 변경중
 - 지금 tmp에서 reframe된 동영상 가져옴. 원본 가져오게
 
-        ISSUE
-- 첫 영상의 일부만 가져옴
-- 정확도가 너무 낮음
-
         TODO
 - git issue 확인
 - 다른 model softmax와 비교
