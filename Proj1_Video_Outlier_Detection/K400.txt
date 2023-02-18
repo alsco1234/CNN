@@ -1,5 +1,5 @@
-/Users/kimminchae/Desktop/CNN/k400/making pizza/-8Appls4ZFg_000236_000246.mp4
-/Users/kimminchae/Desktop/CNN/k400/making pizza/9kLFfNwXOco_000021_000031.mp4
-/Users/kimminchae/Desktop/CNN/k400/reading newspaper/y9SDVSCi2E0_000044_000054.mp4
-/Users/kimminchae/Desktop/CNN/k400/reading newspaper/zRmPcYmC_4s_000011_000021.mp4
-/Users/kimminchae/Desktop/CNN/k400/tasting food/_rh6Wx17imo_000048_000058.mp4
+../../k400/making pizza/-8Appls4ZFg_000236_000246.mp4
+../../k400/making pizza/9kLFfNwXOco_000021_000031.mp4
+../../k400/reading newspaper/y9SDVSCi2E0_000044_000054.mp4
+../../k400/reading newspaper/zRmPcYmC_4s_000011_000021.mp4
+../../k400/tasting food/_rh6Wx17imo_000048_000058.mp4
