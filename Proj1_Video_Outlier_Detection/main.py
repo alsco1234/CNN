@@ -57,5 +57,5 @@ if __name__ == '__main__':
     end = time.time()
 
     sec = (end - start)
-    result = datetime.timedelta(seconds=sec)
+    result = datetime.timedelta(seconds=sec) #시:분:초.마이크로초
     print(result)
