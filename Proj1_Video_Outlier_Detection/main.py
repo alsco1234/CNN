@@ -51,6 +51,11 @@ def main(args_cli):
 
 
 if __name__ == '__main__':
-    
+    start = time.time()
     args_cli = OmegaConf.from_cli()
     main(args_cli)
+    end = time.time()
+
+    sec = (end - start)
+    result = datetime.timedelta(seconds=sec)
+    print(result)
