@@ -31,7 +31,7 @@ from torchvision.transforms._transforms_video import (
     CenterCropVideo,
     NormalizeVideo,
 )
-from pytorchvideo.transforms import (
+from transforms import (
     ApplyTransformToKey,
     ShortSideScale,
     UniformTemporalSubsample
