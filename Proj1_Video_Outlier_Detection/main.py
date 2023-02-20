@@ -4,7 +4,7 @@
 - 새로운 방법: 비디오에서 추출한 모든 segment를 input으로 주고 다수결로 해당 비디오의 class를 결정
 
         TODO
-- git issue 확인  # 91(미해결)
+- git issue 확인  #91(미해결)
 - 다른 model softmax와 비교
 """
 
