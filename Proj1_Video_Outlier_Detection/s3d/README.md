@@ -1,3 +1,27 @@
+<h1>TODO</h1>
+<h2>### s3d_new_sofrmax 진행과정
+
+- 위치 : /home/alsco1234/s3d2/s3d_0217ver
+- 실행명령어 : python main.py feature_type = s3d
+- 가상환경 : x
+- Screen name : s3d_2017ver
+- 실행시간
+    - 시작 : 2월 17일 10시 32분
+    - 예상 : 약 10시간
+    - 끝시간 : 약 2월 17일 20시 32분
+- 특이점
+    - r21d와 다르게 main에서 실행시간 측정
+    - r21d와 같이 npy저장
+    - Extract_s3d클래스의 extract 함수에서 각 세그먼트별 output을 두번 뽑는 과정이 있어 생략함 (line 74-77)
+    - ~~Extract_s3d클래스의 extract 함수에서 fps변경하고 저장해서 불러오는 과정 생략함 (line 56-58) : yml에서 keep_tmp_files = false하면됨. 해결함~~
+    - ‘The value is empty for s3d’ (issue 91, 미해결) 때문에 npy파일이 제대로 저장이 안됨. csv파일은 잘 되는데.. 일단 뽑아봐야 알것같긴함.
+  </h2>
+
+
+
+
+
+
 문제정의 
 (Problem definition)
 블랙박스 영상 분석 비용 축소를 목적으로 블랙박스 영상에 video outlier detection모델을 사용하는 자동화 기술을 개발을 목적으로 한다.
