@@ -1,4 +1,4 @@
-# for x3d, where is time axis?
+# TODO : for x3d, where is time axis?
 # using fps, deal speed
 
 import cv2
