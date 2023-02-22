@@ -30,8 +30,6 @@ def video2image(opt):
     
         print(video_name + " : all convert finish!!")
 
-    
-
 
 if __name__ == '__main__':
     start = time.time()
