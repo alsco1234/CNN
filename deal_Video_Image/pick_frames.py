@@ -1,3 +1,5 @@
+""" n번째 프레임만 추출"""
+
 import os
  
 folder_dir = 'projects/vode/DEC_origins'
