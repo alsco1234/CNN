@@ -3,7 +3,8 @@
 import os
 import numpy as np
 
-path = '/home/s21900395/video_features/crash_32_18_r21d/r21d/'
+# forder path
+path = './img/'
 
 for i in os.listdir(path):
     data = np.load(path+i)
