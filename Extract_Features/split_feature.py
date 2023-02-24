@@ -3,8 +3,6 @@ While Using CCD(Car Crash Dataset), Crash will accure about 1/3 frame
 So, this code will split crash 50 frame into 2 + 16 + 16 + 16, get real crash segment
 """
 
-
-
 import os
 import numpy as np
 import csv
