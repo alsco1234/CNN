@@ -1,11 +1,6 @@
 # Show feature shape
 
-import csv
 import numpy as np
-from contextlib import nullcontext
-import os
-import shutil
-import glob
 from PIL import Image
 
 f = '../s3d_0217ver_test.npy'
