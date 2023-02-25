@@ -20,16 +20,14 @@ Original file is located at
 Load the model:
 """
 
-!pip install torch
-
-!pip install fvcore
+# !pip install torch
+# !pip install fvcore
+# !pip install av
 
 import torch
 # Choose the `x3d_s` model
 model_name = 'x3d_m'
 model = torch.hub.load('facebookresearch/pytorchvideo', model_name, pretrained=True)
-
-!pip install av
 
 """Import remaining functions:"""
 
