@@ -197,7 +197,7 @@ cls_head = cls_head.to(device)
 print(f'load model finished, the missing key of transformer is:{msg_trans[0]}, cls is:{msg_cls[0]}')
 
 """
-TEST
+***********************************************TEST*************************************************
 """
 from IPython.display import display, HTML
 
@@ -234,7 +234,7 @@ video = data_transform(video)
 video = video.to(device)
 
 """
-VIDEO CLASSIFICATION
+*************************************************VIDEO CLASSIFICATION*************************************************
 """
 # Predict class label
 with torch.no_grad():
