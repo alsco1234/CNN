@@ -176,28 +176,16 @@ frame_interval = 32
 num_class = 400
 arch = 'vivit' # turn to vivit for initializing vivit model
 
-if arch == 'timesformer':
-    pretrain_pth = '/content/drive/My Drive/vivit_model.pth'
-    model = TimeSformer(num_frames=num_frames,
-                        img_size=224,
-                        patch_size=16,
-                        embed_dims=768,
-                        in_channels=3,
-                        attention_type='divided_space_time',
-                        return_cls_token=True)
-elif arch == 'vivit':
-    pretrain_pth = '/content/drive/My Drive/vivit_model.pth'
-    num_frames = num_frames * 2
-    frame_interval = frame_interval // 2
-    model = ViViT(num_frames=num_frames,
-                  img_size=224,
-                  patch_size=16,
-                  embed_dims=768,
-                  in_channels=3,
-                  attention_type='fact_encoder',
-                  return_cls_token=True)
-else:
-    raise TypeError(f'not supported arch type {arch}, chosen in (timesformer, vivit)')
+pretrain_pth = '/content/drive/My Drive/vivit_model.pth'
+num_frames = num_frames * 2
+frame_interval = frame_interval // 2
+model = ViViT(num_frames=num_frames,
+            img_size=224,
+            patch_size=16,
+            embed_dims=768,
+            in_channels=3,
+            attention_type='fact_encoder',
+            return_cls_token=True)
 
 cls_head = ClassificationHead(num_classes=num_class, in_channels=768)
 msg_trans = init_from_pretrain_(model, pretrain_pth, init_module='transformer')
