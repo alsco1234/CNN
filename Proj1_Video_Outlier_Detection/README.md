@@ -3,7 +3,6 @@
 ## 재실험 : segment voting
 
 이전 실험의 문제 : 각 Model마다 한 segment에 들어가는 frame 수가 다른데 (64, 32, 16 ..) 영상의 첫 segment로만 판단하여 판단되는 영상의 길이가 다름
-
 재실험 방법 : 영상의 모든 segment를 각각 softmax를 뽑아, 이중에서 voting을 하자
 
 ---
@@ -51,3 +50,7 @@
     잘 되는 것 같기도 하고.. 아닌것같기도 하고.. 원래 정확도가 이래 낮은지..
     
     (오름차순 정렬은 임의로 한거)
+
+### R(2+1)D_new_sofrmax
+
+### x3d_new_sofrmax
