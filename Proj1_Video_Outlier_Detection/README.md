@@ -44,7 +44,7 @@
     - ~~Extract_s3d클래스의 extract 함수에서 fps변경하고 저장해서 불러오는 과정 생략함 (line 56-58) : yml에서 keep_tmp_files = false하면됨. 해결함~~
     - ‘The value is empty for s3d’ (issue 91, 미해결) 때문에 npy파일이 제대로 저장이 안됨. csv파일은 잘 되는데.. 일단 뽑아봐야 알것같긴함. ([https://github.com/v-iashin/video_features/issues/91](https://github.com/v-iashin/video_features/issues/91))
 - 결과
-    
+
     ![스크린샷 2023-02-17 오전 11.08.07.png](https://s3-us-west-2.amazonaws.com/secure.notion-static.com/5e4a3ff3-3212-4fb7-acd9-3f0828400184/%E1%84%89%E1%85%B3%E1%84%8F%E1%85%B3%E1%84%85%E1%85%B5%E1%86%AB%E1%84%89%E1%85%A3%E1%86%BA_2023-02-17_%E1%84%8B%E1%85%A9%E1%84%8C%E1%85%A5%E1%86%AB_11.08.07.png)
     
     (오름차순 정렬은 임의로 한거)
