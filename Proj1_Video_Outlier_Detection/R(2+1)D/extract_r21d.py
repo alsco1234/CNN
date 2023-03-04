@@ -12,7 +12,6 @@ from ..s3d.utils import form_slices, show_predictions_on_dataset
 
 
 class ExtractR21D(BaseExtractor):
-
     def __init__(self, args) -> None:
         # init the BaseExtractor
         super().__init__(
