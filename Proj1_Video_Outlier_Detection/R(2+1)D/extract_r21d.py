@@ -8,7 +8,7 @@ from ..s3d.transforms import (CenterCrop, Normalize, Resize,
                                ToFloatTensorInZeroOne)
 from torchvision.io.video import read_video
 from ..s3d.io import reencode_video_with_diff_fps
-from utils.utils import form_slices, show_predictions_on_dataset
+from ..s3d.utils import form_slices, show_predictions_on_dataset
 
 
 class ExtractR21D(BaseExtractor):
