@@ -6,7 +6,7 @@ os.environ.setdefault('PATH', '')
 import numpy as np
 
 # label 저장된 txt 파일 불러오기 
-label_file = 'kinetics400_labels.txt'
+label_file = 's3d/kinetics400_labels.txt'
 
 with open(label_file) as f:
     label_list = f.readlines()
