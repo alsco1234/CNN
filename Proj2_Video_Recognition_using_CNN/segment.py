@@ -1,3 +1,7 @@
+'''
+save segment jpg
+'''
+
 import cv2
 import os
 from os import path
