@@ -1,5 +1,5 @@
 """
-Claculate accuracy, precision,
+Claculate accuracy, precision,acc, recall, f1 score
 """
 
 # -*- coding: utf-8 -*-
