@@ -1,1 +1,0 @@
-vivit for video outlier detection
