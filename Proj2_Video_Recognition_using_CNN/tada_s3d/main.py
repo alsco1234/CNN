@@ -2,26 +2,18 @@
 논문 재실험 (Kinetics-400)
 - 기존의 방법: 비디오의 첫 segment만 input으로 주어 각 모델마다 segment 길이가 달라 정확한 비교가 어려웠음
 - 새로운 방법: 비디오에서 추출한 모든 segment를 input으로 주고 다수결로 해당 비디오의 class를 결정
-- S3D: fps수정하지않고 원본에서 softmax값 추출하도록 변경중
-- 지금 tmp에서 reframe된 동영상 가져옴. 원본 가져오게
-
-        ISSUE
-- 첫 영상의 일부만 가져옴
-- 정확도가 너무 낮음
 
         TODO
-- git issue #91 확인
+- git issue 확인  ( https://github.com/v-iashin/video_features/issues/91) (미해결)
 - 다른 model softmax와 비교
 """
-import math
-import time
-import datetime
 
 from omegaconf import OmegaConf
 from tqdm import tqdm # 진행 상태바를 보여줌 
 
 from utils import build_cfg_path, form_list_from_user_input, sanity_check
-
+import time
+import datetime
 
 def main(args_cli):
     # config
@@ -57,12 +49,10 @@ def main(args_cli):
 
 if __name__ == '__main__':
     start = time.time()
-
     args_cli = OmegaConf.from_cli()
     main(args_cli)
-
     end = time.time()
 
     sec = (end - start)
-    result = datetime.timedelta(seconds=sec)
+    result = datetime.timedelta(seconds=sec) #시:분:초.마이크로초
     print(result)
