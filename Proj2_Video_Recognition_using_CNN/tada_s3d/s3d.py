@@ -3,6 +3,10 @@ import torch
 from torch import nn
 import torch.nn.functional as F
 
+# 1. copy models/module_zoo/ops/tadaconv.py somewhere in your project 
+#    and import TAdaConv2d, RouteFuncMLP
+from tadaconv import TAdaConv2d, RouteFuncMLP
+
 
 class S3D(nn.Module):
     def __init__(self, num_class, ckpt_path=None):
@@ -31,6 +35,7 @@ class S3D(nn.Module):
         if ckpt_path is not None:
             ckpt = torch.load(ckpt_path, map_location=torch.device('cpu'))
             self.load_state_dict(ckpt)
+            self.unnsqueeze(0)
 
     def forward(self, x, features=False):
         # (B, 1024, 8, 7, 7) <-
@@ -56,8 +61,26 @@ class BasicConv3d(nn.Module):
         self.bn = nn.BatchNorm3d(out_planes, eps=1e-3, momentum=0.001, affine=True)
         self.relu = nn.ReLU()
 
+        # 2. define tadaconv and the route func in your model
+        self.conv_rf = RouteFuncMLP(
+                    c_in=64,            # number of input filters
+                    ratio=4,            # reduction ratio for MLP
+                    kernels=[kernel_size, kernel_size],      # list of temporal kernel sizes
+        )
+        self.conv = TAdaConv2d(
+                    in_channels     = 64,
+                    out_channels    = 64,
+                    kernel_size     = kernel_size, # usually the temporal kernel size is fixed to be 1
+                    stride          = stride, # usually the temporal stride is fixed to be 1
+                    padding         = padding, # usually the temporal padding is fixed to be 0
+                    bias            = False,
+                    cal_dim         = "cin"
+                )
+
     def forward(self, x):
-        x = self.conv(x)
+        # 3. replace 'x = self.conv(x)' with the following line
+        x = self.conv(x, self.conv_rf(x))
+        
         x = self.bn(x)
         x = self.relu(x)
         return x
