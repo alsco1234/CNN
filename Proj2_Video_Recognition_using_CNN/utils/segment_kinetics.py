@@ -7,7 +7,7 @@ from pathlib import Path
 filepath = '/Users/kimminchae/Desktop/CNN/k400/'
 # vidcap = cv2.VideoCapture(filepath)
 
-file_names = os.listdir('../../../projects/vode/data/kinetics400/test/')
+file_names = os.listdir('/Users/kimminchae/Desktop/CNN/k400/')
 file_list = list(file_names)
 
 for file in file_list:
