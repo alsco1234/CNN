@@ -11,7 +11,7 @@ file_names = os.listdir('../../../projects/vode/data/kinetics400/test/')
 file_list = list(file_names)
 
 for file in file_list:
-    video_names = os.listdir('../../../projects/vode/data/kinetics400/test/' + file + '/')
+    video_names = os.listdir('/Users/kimminchae/Desktop/CNN/k400/' + file + '/')
     video_list = list(video_names)
     for video in video_list:
         count = 0
