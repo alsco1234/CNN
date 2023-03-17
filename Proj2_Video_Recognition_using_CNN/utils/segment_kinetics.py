@@ -4,7 +4,7 @@ from os import path
 from pathlib import Path
 
 # filepath = '../../../projects/vode/CCD/Normal/000004.mp4'
-filepath = '../../../projects/vode/data/kinetics400/test/'
+filepath = '/Users/kimminchae/Desktop/CNN/k400/'
 # vidcap = cv2.VideoCapture(filepath)
 
 file_names = os.listdir('../../../projects/vode/data/kinetics400/test/')
