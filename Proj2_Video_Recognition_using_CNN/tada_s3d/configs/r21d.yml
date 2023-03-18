@@ -18,4 +18,4 @@ config: null
 
 # Video paths
 video_paths: null
-file_with_video_paths: /home/s21900395/i3d+r21d+x3d_path.txt # null # if the list of videos is large, you might put them in a txt file, use this argument to specify the path
+file_with_video_paths: ./K400.txt # null # if the list of videos is large, you might put them in a txt file, use this argument to specify the path
