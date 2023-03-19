@@ -3,7 +3,7 @@ from typing import Dict
 import numpy as np
 import torch
 import torchvision
-from models._base.base_extractor import BaseExtractor
+from base_extractor import BaseExtractor
 from models.transforms import (CenterCrop, Normalize, Resize,
                                ToFloatTensorInZeroOne)
 from torchvision.io.video import read_video
