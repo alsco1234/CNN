@@ -4,7 +4,7 @@ import numpy as np
 import torch
 import torchvision
 from base_extractor import BaseExtractor
-from models.transforms import (CenterCrop, Normalize, Resize,
+from transforms import (CenterCrop, Normalize, Resize,
                                ToFloatTensorInZeroOne)
 from torchvision.io.video import read_video
 from io import reencode_video_with_diff_fps
