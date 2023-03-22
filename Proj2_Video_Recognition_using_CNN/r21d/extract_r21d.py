@@ -7,7 +7,7 @@ from base_extractor import BaseExtractor
 from models.transforms import (CenterCrop, Normalize, Resize,
                                ToFloatTensorInZeroOne)
 from torchvision.io.video import read_video
-from utils.io import reencode_video_with_diff_fps
+from io import reencode_video_with_diff_fps
 from utils.utils import form_slices, show_predictions_on_dataset
 
 
