@@ -1,0 +1,104 @@
+/projects/vode/data/kinetics400/test/yoga/6GGXyV47TAQ_000002_000012.mp4
+/projects/vode/data/kinetics400/test/whistling/wsgHjU8_n9A_000083_000093.mp4
+/projects/vode/data/kinetics400/test/waxing legs/Mi6tFg_epbQ_000064_000074.mp4
+/projects/vode/data/kinetics400/test/watering plants/Yv9fIY2C9Lw_000032_000042.mp4
+/projects/vode/data/kinetics400/test/washing hands/QwSUL37O66I_000060_000070.mp4
+/projects/vode/data/kinetics400/test/waiting in line/Tc06_gtZL-s_000004_000014.mp4
+/projects/vode/data/kinetics400/test/using computer/hHRejZ2Ceqg_000000_000010.mp4
+/projects/vode/data/kinetics400/test/triple jump/MrGqrsPw-ys_000022_000032.mp4
+/projects/vode/data/kinetics400/test/triple jump/G_a9EYrgKGc_000007_000017.mp4
+/projects/vode/data/kinetics400/test/triple jump/F-juHwzyBQM_000001_000011.mp4
+/projects/vode/data/kinetics400/test/trimming trees/M7z8eYrNmr8_000001_000011.mp4
+/projects/vode/data/kinetics400/test/trimming trees/c6Cbq-WNq9M_000102_000112.mp4
+/projects/vode/data/kinetics400/test/training dog/DW8NBvJx-1A_000316_000326.mp4
+/projects/vode/data/kinetics400/test/throwing discus/rKlB9HZzn_U_000017_000027.mp4
+/projects/vode/data/kinetics400/test/tango dancing/sw6kVwbzDJU_000097_000107.mp4
+/projects/vode/data/kinetics400/test/swimming breast stroke/DAgQ8HP6S48_000006_000016.mp4
+/projects/vode/data/kinetics400/test/swimming backstroke/SqkEh-Wmn8M_000016_000026.mp4
+/projects/vode/data/kinetics400/test/surfing water/RVZQwg8At0E_000026_000036.mp4
+/projects/vode/data/kinetics400/test/strumming guitar/CeQ6mhhSlaw_000003_000013.mp4
+/projects/vode/data/kinetics400/test/somersaulting/TFYhVN73bH8_000012_000022.mp4
+/projects/vode/data/kinetics400/test/snowmobiling/sTn2cNNvMMA_001135_001145.mp4
+/projects/vode/data/kinetics400/test/snowboarding/_G0JfRUUi6U_000318_000328.mp4
+/projects/vode/data/kinetics400/test/sled dog racing/ajzX-lo2J_s_001709_001719.mp4
+/projects/vode/data/kinetics400/test/skydiving/f8kqK6zjSPQ_000090_000100.mp4
+/projects/vode/data/kinetics400/test/skateboarding/zsA8hWhjiUc_000022_000032.mp4
+/projects/vode/data/kinetics400/test/situp/bYKBIzphcGY_000062_000072.mp4
+/projects/vode/data/kinetics400/test/shaving head/3j1qeK0LlBI_000031_000041.mp4
+/projects/vode/data/kinetics400/test/sharpening pencil/zOP_YE4OR-g_000257_000267.mp4
+/projects/vode/data/kinetics400/test/scuba diving/-2GDsxwm-hw_000501_000511.mp4
+/projects/vode/data/kinetics400/test/sanding floor/sYFh3ItrnWk_000104_000114.mp4
+/projects/vode/data/kinetics400/test/rock scissors paper/YcLay_2EeGA_000061_000071.mp4
+/projects/vode/data/kinetics400/test/riding mule/ZTBtWY2hOh8_000005_000015.mp4
+/projects/vode/data/kinetics400/test/riding mountain bike/px5H-SS60tQ_000106_000116.mp4
+/projects/vode/data/kinetics400/test/riding mountain bike/6XP3UfU6tPY_000283_000293.mp4
+/projects/vode/data/kinetics400/test/push up/6kOQ_GrGn2E_000001_000011.mp4
+/projects/vode/data/kinetics400/test/punching bag/Sh6qGEf9-eg_000003_000013.mp4
+/projects/vode/data/kinetics400/test/playing violin/bUKxsKQ0g3Y_000188_000198.mp4
+/projects/vode/data/kinetics400/test/playing ukulele/TpAM26Xru5g_000056_000066.mp4
+/projects/vode/data/kinetics400/test/playing trumpet/x0mYGI6TgTw_000022_000032.mp4
+/projects/vode/data/kinetics400/test/playing trumpet/Q5cnTxDrDfI_000235_000245.mp4
+/projects/vode/data/kinetics400/test/playing trombone/psOwzloJE28_000089_000099.mp4
+/projects/vode/data/kinetics400/test/playing recorder/Y0GPv3-k_R0_000001_000011.mp4
+/projects/vode/data/kinetics400/test/playing recorder/CTWz0BGty4U_000027_000037.mp4
+/projects/vode/data/kinetics400/test/playing piano/rcCZ-WufURg_000005_000015.mp4
+/projects/vode/data/kinetics400/test/playing guitar/XY2oE7Ctu1o_000040_000050.mp4
+/projects/vode/data/kinetics400/test/playing flute/2ZOO7dyT2Vc_000009_000019.mp4
+/projects/vode/data/kinetics400/test/playing clarinet/RFfWfdxCaoY_000048_000058.mp4
+/projects/vode/data/kinetics400/test/playing cello/ifRreriQ2nU_000016_000026.mp4
+/projects/vode/data/kinetics400/test/playing cards/W_ugNhz7BPw_000114_000124.mp4
+/projects/vode/data/kinetics400/test/playing cards/W_36fZkRvrw_000208_000218.mp4
+/projects/vode/data/kinetics400/test/picking fruit/hxGJ3MdE1c8_000093_000103.mp4
+/projects/vode/data/kinetics400/test/picking fruit/5GdjqzbVNeU_000017_000027.mp4
+/projects/vode/data/kinetics400/test/peeling potatoes/NzCjIOTykrs_000031_000041.mp4
+/projects/vode/data/kinetics400/test/passing American football (not in game)/W2Z0ajHKQfA_000000_000010.mp4
+/projects/vode/data/kinetics400/test/passing American football (in game)/XX1llkjLnLY_000003_000013.mp4
+/projects/vode/data/kinetics400/test/parasailing/2aCBUmeJhEU_000358_000368.mp4
+/projects/vode/data/kinetics400/test/paragliding/ny_qgXBdj9k_000015_000025.mp4
+/projects/vode/data/kinetics400/test/opening present/svxyr6DaD0k_000099_000109.mp4
+/projects/vode/data/kinetics400/test/opening bottle/NCD94-o8MII_000017_000027.mp4
+/projects/vode/data/kinetics400/test/mopping floor/LqQ-8o5m15Y_000037_000047.mp4
+/projects/vode/data/kinetics400/test/milking cow/LA5jRwO9CnU_000000_000010.mp4
+/projects/vode/data/kinetics400/test/making a sandwich/8T9z798dxTI_000288_000298.mp4
+/projects/vode/data/kinetics400/test/making a cake/wjHbK-ByAcE_000083_000093.mp4
+/projects/vode/data/kinetics400/test/long jump/bfhLAuBnOTk_000001_000011.mp4
+/projects/vode/data/kinetics400/test/krumping/Nfxg1nXP9Hc_000078_000088.mp4
+/projects/vode/data/kinetics400/test/knitting/XagA-cmgCcU_000001_000011.mp4
+/projects/vode/data/kinetics400/test/kicking field goal/kfWYqRKBiL8_000004_000014.mp4
+/projects/vode/data/kinetics400/test/jumping into pool/_DN6H0K94P4_000002_000012.mp4
+/projects/vode/data/kinetics400/test/juggling fire/YJC1ob1-oec_000600_000610.mp4
+/projects/vode/data/kinetics400/test/jogging/Nhe6ql53rmo_000042_000052.mp4
+/projects/vode/data/kinetics400/test/hurdling/SVVSVcsl6r0_000072_000082.mp4
+/projects/vode/data/kinetics400/test/high kick/Te_PF1MuZl8_000003_000013.mp4
+/projects/vode/data/kinetics400/test/high kick/rmtydwC49_k_000003_000013.mp4
+/projects/vode/data/kinetics400/test/high jump/AaBaXuApgBw_000005_000015.mp4
+/projects/vode/data/kinetics400/test/hammer throw/Z7SprS3ljk0_000002_000012.mp4
+/projects/vode/data/kinetics400/test/gymnastics tumbling/uEQI_po80TI_000005_000015.mp4
+/projects/vode/data/kinetics400/test/golf chipping/OgflgX-NMdo_000060_000070.mp4
+/projects/vode/data/kinetics400/test/garbage collecting/SCQJMqiGY44_000093_000103.mp4
+/projects/vode/data/kinetics400/test/flipping pancake/ZOZslTEUt7M_000069_000079.mp4
+/projects/vode/data/kinetics400/test/fixing hair/M_6Pfrk4e2U_000159_000169.mp4
+/projects/vode/data/kinetics400/test/finger snapping/ops_OvhjhUM_000001_000011.mp4
+/projects/vode/data/kinetics400/test/feeding birds/PX9RcJUfX0g_000000_000010.mp4
+/projects/vode/data/kinetics400/test/eating watermelon/9fZ0Z4coAUo_000484_000494.mp4
+/projects/vode/data/kinetics400/test/eating doughnuts/fwno_clk8Nw_000068_000078.mp4
+/projects/vode/data/kinetics400/test/eating burger/Xa4ZtOQNpM8_000176_000186.mp4
+/projects/vode/data/kinetics400/test/drinking/UTgPdZ2yuCM_000178_000188.mp4
+/projects/vode/data/kinetics400/test/dodgeball/gLFzZ882UC4_000058_000068.mp4
+/projects/vode/data/kinetics400/test/diving cliff/KcAxo2z3LdA_000046_000056.mp4
+/projects/vode/data/kinetics400/test/dancing charleston/AtsrO0O5fs8_000111_000121.mp4
+/projects/vode/data/kinetics400/test/dancing ballet/HwuBBg0p7ck_000026_000036.mp4
+/projects/vode/data/kinetics400/test/cutting pineapple/XUf0CBtrefw_000060_000070.mp4
+/projects/vode/data/kinetics400/test/cutting nails/6hJNO4nxtnY_000140_000150.mp4
+/projects/vode/data/kinetics400/test/cutting nails/-3LQIrz9FoM_000010_000020.mp4
+/projects/vode/data/kinetics400/test/catching or throwing baseball/4zAbxDdlvho_000002_000012.mp4
+/projects/vode/data/kinetics400/test/cartwheeling/rXRlf-_MO3M_000035_000045.mp4
+/projects/vode/data/kinetics400/test/capoeira/8szDqeYTyx0_000111_000121.mp4
+/projects/vode/data/kinetics400/test/canoeing or kayaking/-nb-krujQoU_000281_000291.mp4
+/projects/vode/data/kinetics400/test/busking/JaErxqNkLY8_000004_000014.mp4
+/projects/vode/data/kinetics400/test/breakdancing/YUKG92p2bZI_000023_000033.mp4
+/projects/vode/data/kinetics400/test/bookbinding/KDTQK_Zyp24_000283_000293.mp4
+/projects/vode/data/kinetics400/test/blowing out candles/3EXDrir-V14_000035_000045.mp4
+/projects/vode/data/kinetics400/test/blowing leaves/2jfH9a6Xg2I_000006_000016.mp4
+/projects/vode/data/kinetics400/test/blasting sand/KF5Ihry8Xr4_000057_000067.mp4
+/projects/vode/data/kinetics400/test/applying cream/LoS3C3YtCn4_000014_000024.mp4
