@@ -30,7 +30,7 @@ def main(args_cli):
 
     # import are done here to avoid import errors (we have two conda environements)
     if args.feature_type == 'r21d':
-        from extract_r21d import ExtractS3D as Extractor
+        from extract_r21d import ExtractR21D as Extractor
     else:
         raise NotImplementedError(f'Extractor {args.feature_type} is not implemented.')
 
