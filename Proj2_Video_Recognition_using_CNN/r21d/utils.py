@@ -35,7 +35,7 @@ def show_predictions_on_dataset(logits: torch.FloatTensor, dataset: Union[str, L
         raise NotImplementedError
 
     # 저장할 파일 생성 및 열기
-    softmax_file = open('s3d_new_kin_softmax.csv', 'a')
+    softmax_file = open('r21d_new_kin_softmax.csv', 'a')
     writer = csv.writer(softmax_file)
 
     # Show predictions
