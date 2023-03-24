@@ -29,7 +29,7 @@ def main(args_cli):
     print('Device:', args.device)
 
     # import are done here to avoid import errors (we have two conda environements)
-    if args.feature_type == 's3d':
+    if args.feature_type == 'r21d':
         from extract_r21d import ExtractS3D as Extractor
     else:
         raise NotImplementedError(f'Extractor {args.feature_type} is not implemented.')
