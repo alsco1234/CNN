@@ -15,7 +15,6 @@ from omegaconf.listconfig import ListConfig
 
 import csv ####
 
-IMAGENET_CLASS_PATH = '.K400_label_map.txt'
 KINETICS_CLASS_PATH = './K400_label_map.txt'
 
 def show_predictions_on_dataset(logits: torch.FloatTensor, dataset: Union[str, List], seg_id: int, video_path): #### segment_id 추가함 (0부터 시작), video_path 추가함
