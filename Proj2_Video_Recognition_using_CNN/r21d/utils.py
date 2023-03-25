@@ -26,8 +26,6 @@ def show_predictions_on_dataset(logits: torch.FloatTensor, dataset: Union[str, L
     '''
     if dataset == 'kinetics':
         dataset_classes = [x.strip() for x in open(KINETICS_CLASS_PATH)]
-    elif dataset == 'imagenet':
-        dataset_classes = [x.strip() for x in open(IMAGENET_CLASS_PATH)]
     elif isinstance(dataset, list):
         dataset_classes = dataset
     else:
