@@ -2,6 +2,7 @@
 논문 재실험 (Kinetics-400)
 - 기존의 방법: 비디오의 첫 segment만 input으로 주어 각 모델마다 segment 길이가 달라 정확한 비교가 어려웠음
 - 새로운 방법: 비디오에서 추출한 모든 segment를 input으로 주고 다수결로 해당 비디오의 class를 결정
+- voting 방법 : soft 
 """
 
 from omegaconf import OmegaConf
