@@ -1,5 +1,3 @@
-"new process 변경 필요"
-
 import torch
 import tensorflow as tf
 import tensorflow_hub as hub
