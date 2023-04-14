@@ -1,3 +1,15 @@
+"""
+result example
+
+abseiling  :  0.656
+air drumming  :  0.54
+answering questions  :  0.235
+applauding  :  0.284
+...
+
+(맞은영상/전체영상)
+"""
+
 import os
 import csv
 
