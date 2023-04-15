@@ -8,6 +8,11 @@ applauding  :  0.284
 ...
 
 (맞은영상/전체영상) = 맞은 퍼센트
+
+fisrt f = predicton
+path, 0.001, 0.002 ... (401 col)
+
+se
 """
 
 import os
