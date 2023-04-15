@@ -7,7 +7,7 @@ answering questions  :  0.235
 applauding  :  0.284
 ...
 
-(맞은영상/전체영상)
+(맞은영상/전체영상) = 맞은 퍼센트
 """
 
 import os
