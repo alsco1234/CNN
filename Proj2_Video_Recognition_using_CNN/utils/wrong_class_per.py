@@ -10,7 +10,7 @@ applauding  :  0.284
 (맞은영상/전체영상) = 맞은 퍼센트
 
 fisrt f = predicton softmax csv file
-path, 0.001, 0.002 ... (401 col)
+home/alsco1234/kineitcs/abseiling/001.mp4, 0.001, 0.002 ... (401 col)
 
 second f = pathes txt file
 home/alsco1234/kineitcs/abseiling/001.mp4 ... (1 col)
