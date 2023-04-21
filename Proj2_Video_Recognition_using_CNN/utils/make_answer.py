@@ -6,7 +6,7 @@ os.environ.setdefault('PATH', '')
 import numpy as np
 
 # label 저장된 txt 파일 불러오기 
-label_file = 'kinetics400_labels.txt'
+label_file = 'K400_labels.txt'
 
 with open(label_file) as f:
     label_list = f.readlines()
@@ -25,7 +25,7 @@ answer = []
 for path in df_path:
     answer.append(path)
     for label in label_list:
-        if label in path:
+        if ('/'+label+'/') in path:
             answer.append(1)
         else: answer.append(0)
     writer.writerow(answer)
