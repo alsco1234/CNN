@@ -6,7 +6,7 @@ os.environ.setdefault('PATH', '')
 import numpy as np
 
 # label 저장된 txt 파일 불러오기 
-label_file = 's3d/kinetics400_labels.txt'
+label_file = 'kinetics400_labels.txt'
 
 with open(label_file) as f:
     label_list = f.readlines()
@@ -14,10 +14,10 @@ with open(label_file) as f:
 # label 400개가 들어있는 리스트
 label_list = [label.rstrip('\n') for label in label_list]  
 
-df = pd.read_csv('kinetics_softmax_S3D.csv')
-df_path = df['dir']
+df = pd.read_csv('/Users/kimminchae/Desktop/CNN/x3d_top1.csv')
+df_path = df['PATH']
 
-file = open('kinetics_answer.csv', 'a')
+file = open('x3d_answer.csv', 'a')
 writer = csv.writer(file)
 answer = []
 
