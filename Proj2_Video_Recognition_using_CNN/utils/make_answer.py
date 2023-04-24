@@ -14,10 +14,10 @@ with open(label_file) as f:
 # label 400개가 들어있는 리스트
 label_list = [label.rstrip('\n') for label in label_list]  
 
-df = pd.read_csv('/Users/kimminchae/Desktop/CNN/k400_top1.csv')
+df = pd.read_csv('/Users/kimminchae/Desktop/CNN/r21d_top1.csv')
 df_path = df['PATH']
 
-file = open('r21d_answer.csv', 'a')
+file = open('k400_answer.csv', 'a')
 writer = csv.writer(file)
 answer = []
 
