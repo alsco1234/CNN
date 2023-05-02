@@ -71,7 +71,7 @@ while True:
             writer.writerow(numpy_array2)
         del numpy_array2
     
-    print('all video ', j, ' / 34342 ')
+    print('all video ', j, ' / 3000 ')
     break # test one video
 
 fr.close()
