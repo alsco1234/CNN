@@ -59,8 +59,7 @@ while True:
         del video5
         
         # 8. csv에 추가하기 
-        # numpy_array = pred.detach().numpy()
-        numpy_array = pred.tolist()
+        numpy_array = pred.tolist() #pred.detach().numpy() 보다 메모리 덜 소모
         del pred
         numpy_array = np.insert(numpy_array, 0, i-1) # segment 번호 (i)
         numpy_array2 = np.concatenate(([video_path], numpy_array))# 영상 주소
