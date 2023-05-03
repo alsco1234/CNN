@@ -350,7 +350,12 @@ class Mixed_5c(nn.Module):
 
 if __name__ == '__main__':
     model = S3D(num_class=400)
+    print(model)
+
+    """
     model.eval()
+
     x = torch.rand(1, 3, 200, 224, 224)
     x = model(x)
     print(x.shape)
+    """
