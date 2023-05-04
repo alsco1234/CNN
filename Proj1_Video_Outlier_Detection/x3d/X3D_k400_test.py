@@ -40,7 +40,7 @@ from transforms import (
 # Set to GPU or CPU
 #device = "cuda:0"
 device = "cpu"
-model = model.eval()
+model = model.eval() # x3d의 경우 batchnorm이 무시되어 성능 나빠짐. 삭제 권장
 model = model.to(device)
 
 json_url = "https://dl.fbaipublicfiles.com/pyslowfast/dataset/class_names/kinetics_classnames.json"
